@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Template</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+
+    <body>
+        <div class=" w-100 mx-auto h-100">
+        <!-- header-->
+            <header class="w-full bg-blue-200 p-4 mb-4 flex justify-center">
+                <div class="container mb-4 flex flex-col justify-center w-full">
+                    <h1 class="text-center text-5xl sm:text-6xl md:text-7xl pb-8 mt-2 font-semibold italic">Product Catalogue</h1>
+                    <div class="flex flex-col md:flex-row w-full gap-4 justify-between">
+                        <input type="text" placeholder="Search..." class="w-full py-2 px-3 rounded-lg focus:outline-none shadow-lg"/>
+                        <select aria-label="Sort products" class="w-full p-2 rounded-lg shadow-lg">
+                            <option value="nameAsc">Sort Alphabetically: A → Z</option>
+                            <option value="nameDesc">Sort Alphabetically: Z → A</option>
+                            <option value="priceLow">Sort by Price: Low → High</option>
+                            <option value="priceHigh">Sort by Price: High → Low</option>
+                            <option value="ratingLow">Sort by Rating: Low → High</option>
+                            <option value="ratingHigh">Sort by Rating: High → Low</option>
+                        </select>
+                    </div>
+                </div>
+            </header>
+
+            <div class="flex flex-col sm:flex-row w-full container mx-auto justify-center text-center gap-8 sm:gap-6 p-4">
+                <!-- Sidebar -->
+                <div class="flex flex-col sm:w-[200px] shrink-0 p-4 mt-2 rounded-lg w-full bg-green-100 self-start shadow-lg">
+                    <div>
+                        <label for="price" class="font-semibold mb-2 shrink-0">Price Range</label>
+                        <input type="range" id="price" min="0" max="1000" value="1000" step="1" class="w-[70%] sm:w-full cursor-pointer">
+                    </div>
+                    <div class="w-full flex flex-col gap-2 mt-4 items-center">
+                        <h2>Categories</h2>
+                        <div class="w-full flex sm:flex-col gap-2 justify-center flex-wrap">
+                            <button type="button" class="bg-blue-200 hover:bg-blue-300 p-3 rounded-lg">Books</button>
+                            <button type="button" class="bg-blue-200 hover:bg-blue-300 p-3 rounded-lg">Electronics</button>
+                            <button type="button" class="bg-blue-200 hover:bg-blue-300 p-3 rounded-lg">Clothing</button>
+                            <button type="button" class="bg-blue-200 hover:bg-blue-300 p-3 rounded-lg">Home</button>
+                            <button type="button" class="bg-blue-200 hover:bg-blue-300 p-3 rounded-lg">Toys</button>
+                        </div>
+                        <button type="button" class="bg-red-200 hover:bg-red-300 p-3 rounded-lg mt-8 sm:w-full">Reset Filters</button>
+                    </div>
+                </div>
+
+                <!-- Main content area -->
+                <div class="flex-1 overflow-y-auto">
+                    <div class="grid gap-6 mt-2 mb-6 grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+                        <div class="flex bg-gray-200 hover:bg-gray-300 cursor-pointer p-4 rounded-lg shadow-lg">
+                            <div class="rounded-lg overflow-hidden w-56 aspect-square">
+                                <img src="stock.jpg"
+                                    alt="stock shopping logo"
+                                    class="w-full h-full object-cover">
+                            </div>
+                            <div class="flex flex-col  justify-between w-full gap-1">
+                                <h3 class="uppercase text-lg font-semibold tracking-widest">Item 1</h3>
+                                <p>$5.99</p>
+                                <p>★★★★☆</p>
+                                <p>Category: Home</p>
+                                <p>In Stock</p>
+                            </div>
+                        </div>
+                        <div class="flex bg-gray-200 hover:bg-gray-300 cursor-pointer p-4 rounded-lg shadow-lg">
+                            <div class="rounded-lg overflow-hidden w-56 aspect-square">
+                                <img src="stock.jpg"
+                                    alt="stock shopping logo"
+                                    class="w-full h-full object-cover">
+                            </div>
+                            <div class="flex flex-col  justify-between w-full gap-1">
+                                <h3 class="uppercase text-lg font-semibold tracking-widest">Item 1</h3>
+                                <p>$5.99</p>
+                                <p>★★★★☆</p>
+                                <p>Category: Home</p>
+                                <p>In Stock</p>
+                            </div>
+                        </div>
+                        <div class="flex bg-gray-200 hover:bg-gray-300 cursor-pointer p-4 rounded-lg shadow-lg">
+                            <div class="rounded-lg overflow-hidden w-56 aspect-square">
+                                <img src="stock.jpg"
+                                    alt="stock shopping logo"
+                                    class="w-full h-full object-cover">
+                            </div>
+                            <div class="flex flex-col  justify-between w-full gap-1">
+                                <h3 class="uppercase text-lg font-semibold tracking-widest">Item 1</h3>
+                                <p>$5.99</p>
+                                <p>★★★★☆</p>
+                                <p>Category: Home</p>
+                                <p>In Stock</p>
+                            </div>
+                        </div>
+                        <div class="flex bg-gray-200 hover:bg-gray-300 cursor-pointer p-4 rounded-lg shadow-lg">
+                            <div class="rounded-lg overflow-hidden w-56 aspect-square">
+                                <img src="stock.jpg"
+                                    alt="stock shopping logo"
+                                    class="w-full h-full object-cover">
+                            </div>
+                            <div class="flex flex-col  justify-between w-full gap-1">
+                                <h3 class="uppercase text-lg font-semibold tracking-widest">Item 1</h3>
+                                <p>$5.99</p>
+                                <p>★★★★☆</p>
+                                <p>Category: Home</p>
+                                <p>In Stock</p>
+                            </div>
+                        </div>
+                        <div class="flex bg-gray-200 hover:bg-gray-300 cursor-pointer p-4 rounded-lg shadow-lg">
+                            <div class="rounded-lg overflow-hidden w-56 aspect-square">
+                                <img src="stock.jpg"
+                                    alt="stock shopping logo"
+                                    class="w-full h-full object-cover">
+                            </div>
+                            <div class="flex flex-col  justify-between w-full gap-1">
+                                <h3 class="uppercase text-lg font-semibold tracking-widest">Item 1</h3>
+                                <p>$5.99</p>
+                                <p>★★★★☆</p>
+                                <p>Category: Home</p>
+                                <p>In Stock</p>
+                            </div>
+                        </div>
+                        <div class="flex bg-gray-200 hover:bg-gray-300 cursor-pointer p-4 rounded-lg shadow-lg">
+                            <div class="rounded-lg overflow-hidden w-56 aspect-square">
+                                <img src="stock.jpg"
+                                    alt="stock shopping logo"
+                                    class="w-full h-full object-cover">
+                            </div>
+                            <div class="flex flex-col  justify-between w-full gap-1">
+                                <h3 class="uppercase text-lg font-semibold tracking-widest">Item 1</h3>
+                                <p>$5.99</p>
+                                <p>★★★★☆</p>
+                                <p>Category: Home</p>
+                                <p>In Stock</p>
+                            </div>
+                        </div>
+                        <div class="flex bg-gray-200 hover:bg-gray-300 cursor-pointer p-4 rounded-lg shadow-lg">
+                            <div class="rounded-lg overflow-hidden w-56 aspect-square">
+                                <img src="stock.jpg"
+                                    alt="stock shopping logo"
+                                    class="w-full h-full object-cover">
+                            </div>
+                            <div class="flex flex-col  justify-between w-full gap-1">
+                                <h3 class="uppercase text-lg font-semibold tracking-widest">Item 1</h3>
+                                <p>$5.99</p>
+                                <p>★★★★☆</p>
+                                <p>Category: Home</p>
+                                <p>In Stock</p>
+                            </div>
+                        </div>
+                        <div class="flex bg-gray-200 hover:bg-gray-300 cursor-pointer p-4 rounded-lg shadow-lg">
+                            <div class="rounded-lg overflow-hidden w-56 aspect-square">
+                                <img src="stock.jpg"
+                                    alt="stock shopping logo"
+                                    class="w-full h-full object-cover">
+                            </div>
+                            <div class="flex flex-col  justify-between w-full gap-1">
+                                <h3 class="uppercase text-lg font-semibold tracking-widest">Item 1</h3>
+                                <p>$5.99</p>
+                                <p>★★★★☆</p>
+                                <p>Category: Home</p>
+                                <p>In Stock</p>
+                            </div>
+                        </div>
+                        <div class="flex bg-gray-200 hover:bg-gray-300 cursor-pointer p-4 rounded-lg shadow-lg">
+                            <div class="rounded-lg overflow-hidden w-56 aspect-square">
+                                <img src="stock.jpg"
+                                    alt="stock shopping logo"
+                                    class="w-full h-full object-cover">
+                            </div>
+                            <div class="flex flex-col  justify-between w-full gap-1">
+                                <h3 class="uppercase text-lg font-semibold tracking-widest">Item 1</h3>
+                                <p>$5.99</p>
+                                <p>★★★★☆</p>
+                                <p>Category: Home</p>
+                                <p>In Stock</p>
+                            </div>
+                        </div>
+                        <div class="flex bg-gray-200 hover:bg-gray-300 cursor-pointer p-4 rounded-lg shadow-lg">
+                            <div class="rounded-lg overflow-hidden w-56 aspect-square">
+                                <img src="stock.jpg"
+                                    alt="stock shopping logo"
+                                    class="w-full h-full object-cover">
+                            </div>
+                            <div class="flex flex-col  justify-between w-full gap-1">
+                                <h3 class="uppercase text-lg font-semibold tracking-widest">Item 1</h3>
+                                <p>$5.99</p>
+                                <p>★★★★☆</p>
+                                <p>Category: Home</p>
+                                <p>In Stock</p>
+                            </div>
+                        </div>
+                        <div class="flex bg-gray-200 hover:bg-gray-300 cursor-pointer p-4 rounded-lg shadow-lg">
+                            <div class="rounded-lg overflow-hidden w-56 aspect-square">
+                                <img src="stock.jpg"
+                                    alt="stock shopping logo"
+                                    class="w-full h-full object-cover">
+                            </div>
+                            <div class="flex flex-col  justify-between w-full gap-1">
+                                <h3 class="uppercase text-lg font-semibold tracking-widest">Item 1</h3>
+                                <p>$5.99</p>
+                                <p>★★★★☆</p>
+                                <p>Category: Home</p>
+                                <p>In Stock</p>
+                            </div>
+                        </div>
+                        <div class="flex bg-gray-200 hover:bg-gray-300 cursor-pointer p-4 rounded-lg shadow-lg">
+                            <div class="rounded-lg overflow-hidden w-56 aspect-square">
+                                <img src="stock.jpg"
+                                    alt="stock shopping logo"
+                                    class="w-full h-full object-cover">
+                            </div>
+                            <div class="flex flex-col  justify-between w-full gap-1">
+                                <h3 class="uppercase text-lg font-semibold tracking-widest">Item 1</h3>
+                                <p>$5.99</p>
+                                <p>★★★★☆</p>
+                                <p>Category: Home</p>
+                                <p>In Stock</p>
+                            </div>
+                        </div>
+                        <div class="flex bg-gray-200 hover:bg-gray-300 cursor-pointer p-4 rounded-lg shadow-lg">
+                            <div class="rounded-lg overflow-hidden w-56 aspect-square">
+                                <img src="stock.jpg"
+                                    alt="stock shopping logo"
+                                    class="w-full h-full object-cover">
+                            </div>
+                            <div class="flex flex-col  justify-between w-full gap-1">
+                                <h3 class="uppercase text-lg font-semibold tracking-widest">Item 1</h3>
+                                <p>$5.99</p>
+                                <p>★★★★☆</p>
+                                <p>Category: Home</p>
+                                <p>In Stock</p>
+                            </div>
+                        </div>
+                        <div class="flex bg-gray-200 hover:bg-gray-300 cursor-pointer p-4 rounded-lg shadow-lg">
+                            <div class="rounded-lg overflow-hidden w-56 aspect-square">
+                                <img src="stock.jpg"
+                                    alt="stock shopping logo"
+                                    class="w-full h-full object-cover">
+                            </div>
+                            <div class="flex flex-col  justify-between w-full gap-1">
+                                <h3 class="uppercase text-lg font-semibold tracking-widest">Item 1</h3>
+                                <p>$5.99</p>
+                                <p>★★★★☆</p>
+                                <p>Category: Home</p>
+                                <p>In Stock</p>
+                            </div>
+                        </div>
+                        <div class="flex bg-gray-200 hover:bg-gray-300 cursor-pointer p-4 rounded-lg shadow-lg">
+                            <div class="rounded-lg overflow-hidden w-56 aspect-square">
+                                <img src="stock.jpg"
+                                    alt="stock shopping logo"
+                                    class="w-full h-full object-cover">
+                            </div>
+                            <div class="flex flex-col  justify-between w-full gap-1">
+                                <h3 class="uppercase text-lg font-semibold tracking-widest">Item 1</h3>
+                                <p>$5.99</p>
+                                <p>★★★★☆</p>
+                                <p>Category: Home</p>
+                                <p>In Stock</p>
+                            </div>
+                        </div>
+                        <div class="flex bg-gray-200 hover:bg-gray-300 cursor-pointer p-4 rounded-lg shadow-lg">
+                            <div class="rounded-lg overflow-hidden w-56 aspect-square">
+                                <img src="stock.jpg"
+                                    alt="stock shopping logo"
+                                    class="w-full h-full object-cover">
+                            </div>
+                            <div class="flex flex-col  justify-between w-full gap-1">
+                                <h3 class="uppercase text-lg font-semibold tracking-widest">Item 1</h3>
+                                <p>$5.99</p>
+                                <p>★★★★☆</p>
+                                <p>Category: Home</p>
+                                <p>In Stock</p>
+                            </div>
+                        </div>
+                        <div class="flex bg-gray-200 hover:bg-gray-300 cursor-pointer p-4 rounded-lg shadow-lg">
+                            <div class="rounded-lg overflow-hidden w-56 aspect-square">
+                                <img src="stock.jpg"
+                                    alt="stock shopping logo"
+                                    class="w-full h-full object-cover">
+                            </div>
+                            <div class="flex flex-col  justify-between w-full gap-1">
+                                <h3 class="uppercase text-lg font-semibold tracking-widest">Item 1</h3>
+                                <p>$5.99</p>
+                                <p>★★★★☆</p>
+                                <p>Category: Home</p>
+                                <p>In Stock</p>
+                            </div>
+                        </div>
+                        <div class="flex bg-gray-200 hover:bg-gray-300 cursor-pointer p-4 rounded-lg shadow-lg">
+                            <div class="rounded-lg overflow-hidden w-56 aspect-square">
+                                <img src="stock.jpg"
+                                    alt="stock shopping logo"
+                                    class="w-full h-full object-cover">
+                            </div>
+                            <div class="flex flex-col  justify-between w-full gap-1">
+                                <h3 class="uppercase text-lg font-semibold tracking-widest">Item 1</h3>
+                                <p>$5.99</p>
+                                <p>★★★★☆</p>
+                                <p>Category: Home</p>
+                                <p>In Stock</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="w-full bg-blue-200 flex justify-center">
+                <p class="container p-4 w-full text-center">Made by Max Seaman &copy; 2025</p>
+            </footer>
+        </div>
+    </body>
+</html>
