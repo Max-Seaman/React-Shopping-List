@@ -6,7 +6,7 @@ export const products = [
     price: 9.99, 
     rating: 4.2, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 2, 
@@ -15,7 +15,7 @@ export const products = [
     price: 79.99, 
     rating: 4.5, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 3, 
@@ -24,7 +24,7 @@ export const products = [
     price: 19.99, 
     rating: 4.0, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 4, 
@@ -33,7 +33,7 @@ export const products = [
     price: 59.99, 
     rating: 4.6, 
     inStock: false, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 5, 
@@ -42,7 +42,7 @@ export const products = [
     price: 29.99, 
     rating: 4.4, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 6, 
@@ -51,7 +51,7 @@ export const products = [
     price: 34.99, 
     rating: 3.9, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 7, 
@@ -60,7 +60,7 @@ export const products = [
     price: 12.99, 
     rating: 4.1, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 8, 
@@ -69,7 +69,7 @@ export const products = [
     price: 49.99, 
     rating: 4.3, 
     inStock: false, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 9, 
@@ -78,7 +78,7 @@ export const products = [
     price: 39.99, 
     rating: 4.0, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 10, 
@@ -87,7 +87,7 @@ export const products = [
     price: 24.99, 
     rating: 4.7, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 11, 
@@ -96,7 +96,7 @@ export const products = [
     price: 129.99, 
     rating: 3.8, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 12, 
@@ -105,7 +105,7 @@ export const products = [
     price: 6.99, 
     rating: 3.9, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 13, 
@@ -114,7 +114,7 @@ export const products = [
     price: 89.99, 
     rating: 4.4, 
     inStock: false, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 14, 
@@ -123,7 +123,7 @@ export const products = [
     price: 49.99, 
     rating: 4.5, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 15, 
@@ -132,7 +132,7 @@ export const products = [
     price: 34.99, 
     rating: 4.2, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 16, 
@@ -141,7 +141,7 @@ export const products = [
     price: 59.99, 
     rating: 4.1, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 17, 
@@ -150,7 +150,7 @@ export const products = [
     price: 8.99, 
     rating: 4.8, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 18, 
@@ -159,7 +159,7 @@ export const products = [
     price: 39.99, 
     rating: 4.3, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 19, 
@@ -168,7 +168,7 @@ export const products = [
     price: 45.99, 
     rating: 4.0, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 20, 
@@ -177,7 +177,7 @@ export const products = [
     price: 22.99, 
     rating: 4.6, 
     inStock: false, 
-    imageUrl: "../public/images/stock.jpg"    
+    imageUrl: null    
   },
   { 
     id: 21, 
@@ -186,7 +186,7 @@ export const products = [
     price: 49.99, 
     rating: 4.2, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 22, 
@@ -195,7 +195,7 @@ export const products = [
     price: 14.99, 
     rating: 4.1, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 23, 
@@ -204,7 +204,7 @@ export const products = [
     price: 29.99, 
     rating: 3.7, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 24, 
@@ -213,7 +213,7 @@ export const products = [
     price: 39.99, 
     rating: 4.5, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 25, 
@@ -222,7 +222,7 @@ export const products = [
     price: 19.99, 
     rating: 4.0, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 26, 
@@ -231,7 +231,7 @@ export const products = [
     price: 99.99, 
     rating: 4.0, 
     inStock: false, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 27, 
@@ -240,7 +240,7 @@ export const products = [
     price: 11.99, 
     rating: 3.9, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 28, 
@@ -249,7 +249,7 @@ export const products = [
     price: 12.99, 
     rating: 4.2, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 29, 
@@ -258,7 +258,7 @@ export const products = [
     price: 18.99, 
     rating: 4.3, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 30, 
@@ -267,7 +267,7 @@ export const products = [
     price: 34.99, 
     rating: 4.7, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 31, 
@@ -276,7 +276,7 @@ export const products = [
     price: 19.99, 
     rating: 4.1, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 32, 
@@ -285,7 +285,7 @@ export const products = [
     price: 13.99, 
     rating: 4.0, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   },
   { 
     id: 33, 
@@ -294,7 +294,7 @@ export const products = [
     price: 44.99, 
     rating: 4.4, 
     inStock: false, 
-    imageUrl: "../public/images/stock.jpg"    
+    imageUrl: null    
   }, 
   { 
     id: 34, 
@@ -303,7 +303,7 @@ export const products = [
     price: 24.99, 
     rating: 4.2, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   }, 
   { 
     id: 35, 
@@ -312,7 +312,7 @@ export const products = [
     price: 129.99, 
     rating: 3.8, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   }, 
   { 
     id: 36, 
@@ -321,7 +321,7 @@ export const products = [
     price: 29.99, 
     rating: 4.0, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   }, 
   { 
     id: 37, 
@@ -330,7 +330,7 @@ export const products = [
     price: 549.99, 
     rating: 4.6, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   }, 
   { 
     id: 38, 
@@ -339,7 +339,7 @@ export const products = [
     price: 899.99, 
     rating: 4.7, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   }, 
   { 
     id: 39, 
@@ -348,7 +348,7 @@ export const products = [
     price: 699.99, 
     rating: 4.4, 
     inStock: false, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   }, 
   { 
     id: 40, 
@@ -357,7 +357,7 @@ export const products = [
     price: 799.99, 
     rating: 4.3, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   }, 
   { 
     id: 41, 
@@ -366,7 +366,7 @@ export const products = [
     price: 999.99, 
     rating: 4.5, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   }, 
   { 
     id: 42, 
@@ -375,7 +375,7 @@ export const products = [
     price: 149.99, 
     rating: 4.8, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   }, 
   { 
     id: 43, 
@@ -384,7 +384,7 @@ export const products = [
     price: 129.99, 
     rating: 4.2, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   }, 
   { 
     id: 44, 
@@ -393,7 +393,7 @@ export const products = [
     price: 249.99, 
     rating: 4.4, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   }, 
   { 
     id: 45, 
@@ -402,7 +402,7 @@ export const products = [
     price: 349.99, 
     rating: 4.6, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   }, 
   { 
     id: 46, 
@@ -411,7 +411,7 @@ export const products = [
     price: 279.99, 
     rating: 4.3, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   }, 
   { 
     id: 47, 
@@ -420,7 +420,7 @@ export const products = [
     price: 59.99, 
     rating: 4.5, 
     inStock: false, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   }, 
   { 
     id: 48, 
@@ -429,7 +429,7 @@ export const products = [
     price: 239.99, 
     rating: 4.3, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   }, 
   { 
     id: 49, 
@@ -438,7 +438,7 @@ export const products = [
     price: 129.99, 
     rating: 4.1, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   }, 
   { 
     id: 50, 
@@ -447,6 +447,6 @@ export const products = [
     price: 199.99,
     rating: 4.5, 
     inStock: true, 
-    imageUrl: "../public/images/stock.jpg" 
+    imageUrl: null 
   }
 ];

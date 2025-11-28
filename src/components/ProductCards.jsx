@@ -1,5 +1,6 @@
 import useProductFilters from "./hooks/useProductFilters";
 import useProductSorting  from "./hooks/useProductSorting";
+import placeholderImage from "../assets/images/stock.jpg";
 
 export function ProductCards(
   { 
@@ -43,7 +44,7 @@ export function ProductCards(
         >
           <div className="rounded-lg overflow-hidden w-72">
             <img
-              src={product.imageUrl}
+              src={product.imageUrl ? product.imageUrl : placeholderImage}
               alt={`image of ${product.name}`}
               className="w-full h-full object-cover"
             />
