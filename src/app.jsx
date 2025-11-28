@@ -4,7 +4,7 @@ import { Main } from "./components/Main";
 import { Footer } from "./components/Footer";
 import { Container } from "./components/Container";
 
-export function App() {
+export default function App() {
   const [searchQuery, setSearchQuery] = useState("");
   const [sort, setSort] = useState("");
   const [priceRange, setPriceRange] = useState([0, 1000]);
