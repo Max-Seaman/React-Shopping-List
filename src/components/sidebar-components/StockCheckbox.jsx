@@ -13,6 +13,8 @@ export default function StockCheckbox(
   // Get current inStock value from filters
   const inStock = filters.inStock;
 
+  const labelClass = `w-full flex items-center justify-center p-2 rounded-lg cursor-pointer transition-colors duration-150 hover:bg-blue-600 hover:text-white ${inStock ? 'bg-blue-500' : 'bg-blue-300 text-gray-800'}`;
+
   // Handle checkbox change
   const handleCheckboxChange = (event) => {
     const checked = event.target.checked;
@@ -21,16 +23,16 @@ export default function StockCheckbox(
   };
 
   return (
-    <label htmlFor={safeId} className="w-full flex items-center bg-blue-200 hover:bg-blue-300 p-2 rounded-lg cursor-pointer">
+    <label htmlFor={safeId} className={labelClass}>
       <input
         id={safeId}
         type="checkbox"
         value={label}
         checked={inStock}
-        className="h-4 w-4 rounded text-blue-600 focus:ring-blue-500"
         onChange={handleCheckboxChange}
+        className="sr-only"
       />
-      <span className="w-full text-center pl-2">{label}</span>
+      <span className="w-full text-center">{label}</span>
     </label>
   );
 }

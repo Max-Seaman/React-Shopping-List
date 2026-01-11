@@ -6,7 +6,7 @@ export default function SortBy({ value = "", onSortChange = () => {} }) {
       value={value}
       onChange={(e) => onSortChange(e.target.value)}
       aria-label="Sort products"
-      className="w-full p-2 rounded-lg shadow-lg bg-white"
+      className="w-full p-2 pr-2 rounded-lg shadow-lg bg-[#edf5ff]"
     >
       <option value="">Sort By ...</option>
       <option value="nameAsc">Sort Alphabetically: A → Z</option>

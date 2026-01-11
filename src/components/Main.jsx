@@ -30,7 +30,7 @@ export function Main(
             </div>
           </div>
         ) : (
-          <div className="grid gap-6 mt-2 mb-6 grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3">
+          <div className="grid gap-6 mt-2 grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3">
             <ProductCards 
               products={products}
               searchQuery={searchQuery} 

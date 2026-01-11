@@ -14,7 +14,7 @@ export function Header(
         <h1 className="text-center text-5xl sm:text-6xl md:text-7xl pb-8 mt-4 font-semibold italic">
           Product Catalogue
         </h1>
-        <div className="flex flex-col md:flex-row w-full gap-4 justify-between">
+        <div className="flex flex-col w-full md:w-3/4 lg:w-3/5 gap-4 mx-auto">
           <Search 
             value={searchQuery} 
             onSearch={setSearchQuery} 

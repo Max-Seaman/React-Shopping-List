@@ -19,7 +19,7 @@ export function Sidebar(
   }
 
   return (
-    <div className="flex flex-col sm:w-[200px] shrink-0 p-4 mt-2 rounded-lg w-full bg-green-100 self-start shadow-lg">
+    <div className="flex flex-col sm:w-[200px] shrink-0 p-4 mt-2 rounded-lg w-full bg-blue-200 self-start shadow-lg">
       <div className="flex flex-col">
         <h3 className="font-semibold mb-2">
           Price Range

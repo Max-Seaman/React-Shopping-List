@@ -11,6 +11,7 @@ export default function FilterCheckbox(
   const categoryFilter = filters.categoryFilter;
 
   const isChecked = categoryFilter.indexOf(label) !== -1;
+  const labelClass = `flex items-center justify-center p-2 rounded-lg cursor-pointer transition-colors duration-150 sm:w-full hover:bg-blue-600 hover:text-white ${isChecked ? 'bg-blue-500' : 'bg-blue-300 text-gray-800'}`;
   
   const handleCheckboxChange = (e) => {
     const checked = e.target.checked;
@@ -32,16 +33,16 @@ export default function FilterCheckbox(
   };
 
   return (
-    <label htmlFor={safeId} className="flex items-center bg-blue-200 hover:bg-blue-300 p-2 rounded-lg cursor-pointer">
+    <label htmlFor={safeId} className={labelClass}>
       <input
         id={safeId}
         type="checkbox"
         value={label}
         checked={isChecked}
-        className="h-4 w-4 rounded text-blue-600 focus:ring-blue-500"
         onChange={handleCheckboxChange}
+        className="sr-only"
       />
-      <span className="w-full text-center pl-2">{label}</span>
+      <span className="w-full text-center">{label}</span>
     </label>
   );
 }
