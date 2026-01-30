@@ -85,10 +85,9 @@ export function ProductCards(
               previousLabel={<FontAwesomeIcon icon={faArrowLeft} />}
               nextLabel={<FontAwesomeIcon icon={faArrowRight} />}
               containerClassName="flex gap-2"
-              pageClassName="px-3 py-1 rounded-md bg-blue-200 shadow-sm cursor-pointer hover:bg-blue-400"
-              activeClassName="bg-blue-300 cursor-pointer"
-              previousClassName="px-3 py-1 cursor-pointer"
-              nextClassName="px-3 py-1 cursor-pointer"
+              pageLinkClassName="px-3 py-2 bg-blue-200 shadow-sm cursor-pointer hover:bg-blue-300 rounded-md"
+              activeClassName=""
+              activeLinkClassName="bg-blue-300"
             />
           </div>
         )}
